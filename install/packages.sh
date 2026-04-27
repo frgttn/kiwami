@@ -29,7 +29,7 @@ PACKAGES=(
 
 # Список AUR пакетов
 AUR_PACKAGES=(
-    hyprland-preview-share-picker
+    hyprland-preview-share-picker-git
     walker
     limine-mkinitcpio-hook
     limine-snapper-sync
