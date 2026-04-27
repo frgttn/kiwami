@@ -16,5 +16,5 @@ sudo ufw --force enable
 sudo systemctl enable ufw
 
 # Turn on Docker protections
-sudo ufw-docker install
+# sudo ufw-docker install
 sudo ufw reload
