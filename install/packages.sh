@@ -34,6 +34,7 @@ AUR_PACKAGES=(
     limine-mkinitcpio-hook
     limine-snapper-sync
     xdg-terminal-exec
+    yaru-icon-theme
 )
 
 echo "--- Обновление системы ---"
