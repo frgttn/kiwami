@@ -1,4 +1,4 @@
-include=./core.ini
+include=~/.config/mako/core.ini
 
 text-color=#ffffff
 border-color=#8d8d8d
