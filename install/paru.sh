@@ -6,7 +6,7 @@ echo "--- Installation of paru ---"
 
 if command -v paru >/dev/null 2>&1; then
     echo "--- paru is already installed ---"
-    exit 0
+    exit 1
 fi
 
 sudo pacman -S --needed --noconfirm base-devel git
