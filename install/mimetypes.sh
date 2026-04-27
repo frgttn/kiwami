@@ -40,20 +40,20 @@ xdg-mime default mpv.desktop application/ogg
 xdg-mime default HEY.desktop x-scheme-handler/mailto
 
 # Open text files with zeditor
-xdg-mime default dev.zed.Zed.desktoptext/plain
-xdg-mime default dev.zed.Zed.desktoptext/english
-xdg-mime default dev.zed.Zed.desktoptext/x-makefile
-xdg-mime default dev.zed.Zed.desktoptext/x-c++hdr
-xdg-mime default dev.zed.Zed.desktoptext/x-c++src
-xdg-mime default dev.zed.Zed.desktoptext/x-chdr
-xdg-mime default dev.zed.Zed.desktoptext/x-csrc
-xdg-mime default dev.zed.Zed.desktoptext/x-java
-xdg-mime default dev.zed.Zed.desktoptext/x-moc
-xdg-mime default dev.zed.Zed.desktoptext/x-pascal
-xdg-mime default dev.zed.Zed.desktoptext/x-tcl
-xdg-mime default dev.zed.Zed.desktoptext/x-tex
-xdg-mime default dev.zed.Zed.desktopapplication/x-shellscript
-xdg-mime default dev.zed.Zed.desktoptext/x-c
-xdg-mime default dev.zed.Zed.desktoptext/x-c++
-xdg-mime default dev.zed.Zed.desktopapplication/xml
-xdg-mime default dev.zed.Zed.desktoptext/xml
+xdg-mime default dev.zed.Zed.desktop text/plain
+xdg-mime default dev.zed.Zed.desktop text/english
+xdg-mime default dev.zed.Zed.desktop text/x-makefile
+xdg-mime default dev.zed.Zed.desktop text/x-c++hdr
+xdg-mime default dev.zed.Zed.desktop text/x-c++src
+xdg-mime default dev.zed.Zed.desktop text/x-chdr
+xdg-mime default dev.zed.Zed.desktop text/x-csrc
+xdg-mime default dev.zed.Zed.desktop text/x-java
+xdg-mime default dev.zed.Zed.desktop text/x-moc
+xdg-mime default dev.zed.Zed.desktop text/x-pascal
+xdg-mime default dev.zed.Zed.desktop text/x-tcl
+xdg-mime default dev.zed.Zed.desktop text/x-tex
+xdg-mime default dev.zed.Zed.desktop application/x-shellscript
+xdg-mime default dev.zed.Zed.desktop text/x-c
+xdg-mime default dev.zed.Zed.desktop text/x-c++
+xdg-mime default dev.zed.Zed.desktop application/xml
+xdg-mime default dev.zed.Zed.desktop text/xml
