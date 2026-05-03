@@ -27,6 +27,7 @@ run_step 30-network.sh
 run_step 31-firewall.sh
 run_step 40-nvidia.sh
 run_step 41-vulkan.sh
+run_step 42-vaapi.sh
 run_step 50-display-manager.sh
 run_step 51-usb-autosuspend.sh
 run_step 60-theme.sh

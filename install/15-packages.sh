@@ -12,8 +12,8 @@ PACKAGES=(
     gvfs-smb hypridle hyprland hyprland-guiutils hyprlock hyprpicker 
     hyprsunset imagemagick impala imv inetutils inxi iwd jq kernel-modules-hook 
     kitty kvantum-qt5 lazydocker lazygit less libsecret libyaml libsass 
-    libpulse libqalculate libreoffice-fresh libva-intel-driver libva-nvidia-driver 
-    limine llvm mako man-db mise mpv nautilus nautilus-python gnome-disk-utility 
+    libpulse libqalculate libreoffice-fresh limine llvm mako 
+    man-db mise mpv nautilus nautilus-python gnome-disk-utility 
     noto-fonts noto-fonts-cjk noto-fonts-emoji nss-mdns neovim pamixer 
     papers pciutils pipewire pipewire-alsa pipewire-jack pipewire-pulse plasma-login-manager 
     playerctl plocate plymouth polkit-gnome power-profiles-daemon python-gobject 
