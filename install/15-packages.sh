@@ -2,7 +2,6 @@
 
 set -euo pipefail
 
-# Список официальных пакетов (Pacman)
 PACKAGES=(
     alacritty alsa-utils avahi bash-completion bat bluetui brightnessctl btop 
     btrfs-progs chromium cups cups-browsed cups-filters cups-pdf dkms 
@@ -25,10 +24,6 @@ PACKAGES=(
     xdg-desktop-portal-hyprland zed zoxide zram-generator
 )
 
-echo "--- Updating system ---"
 sudo pacman -Syu --noconfirm
 
-echo "--- Install official packages ---"
 sudo pacman -S --needed --noconfirm "${PACKAGES[@]}"
-
-echo "--- Installation of official packages completed! ---"

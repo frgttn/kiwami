@@ -2,8 +2,6 @@
 
 set -euo pipefail
 
-echo "--- Copying Kiwami configs ---"
-
 CONFIG_SOURCE="$KIWAMI_PATH/config"
 CONFIG_TARGET="$HOME/.config"
 BACKUP_DIR="$CONFIG_TARGET/kiwami-backup-$(date +%Y%m%d-%H%M%S)"
