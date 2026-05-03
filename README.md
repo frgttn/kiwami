@@ -1,9 +1,15 @@
-# Omarchy
+# Kiwami
 
-Omarchy is a beautiful, modern & opinionated Linux distribution by DHH.
+Kiwami is a personal Arch Linux setup script and configuration collection.
 
-Read more at [omarchy.org](https://omarchy.org).
+## Installation
+
+Run the installer with:
+
+```sh
+wget -qO- https://raw.githubusercontent.com/frgttn/kiwami/refs/heads/master/boot.sh | bash
+```
 
 ## License
 
-Omarchy is released under the [MIT License](https://opensource.org/licenses/MIT).
+Kiwami is released under the [MIT License](https://opensource.org/licenses/MIT).
