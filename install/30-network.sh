@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -euo pipefail
+
 # Ensure iwd service will be started
 sudo systemctl enable iwd.service
 

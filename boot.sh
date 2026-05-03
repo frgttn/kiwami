@@ -16,7 +16,7 @@ KIWAMI_REF="${KIWAMI_REF:-master}"
 
 sudo pacman -Syu --noconfirm --needed git
 
-# Use custom repo if specified, otherwise default to basecamp/omarchy
+# Use custom repo if specified, otherwise default to frgttn/kiwami
 KIWAMI_REPO="${KIWAMI_REPO:-frgttn/kiwami}"
 
 echo -e "\nCloning Kiwami from: https://github.com/${KIWAMI_REPO}.git"

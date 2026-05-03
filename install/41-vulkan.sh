@@ -1,5 +1,9 @@
+#!/bin/bash
+
+set -euo pipefail
+
 # Install Vulkan drivers matching detected GPU hardware
-# (NVIDIA Vulkan is handled by nvidia.sh via nvidia-utils)
+# (NVIDIA Vulkan is handled by 40-nvidia.sh via nvidia-utils)
 
 declare -A VULKAN_DRIVERS=(
   [Intel]=vulkan-intel

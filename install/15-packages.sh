@@ -1,8 +1,6 @@
 #!/bin/bash
 
-set -e
-
-AUR_HELPER="paru"
+set -euo pipefail
 
 # Список официальных пакетов (Pacman)
 PACKAGES=(
@@ -18,7 +16,7 @@ PACKAGES=(
     libpulse libqalculate libreoffice-fresh libva-intel-driver libva-nvidia-driver 
     limine llvm mako man-db mise mpv nautilus nautilus-python gnome-disk-utility 
     noto-fonts noto-fonts-cjk noto-fonts-emoji nss-mdns neovim pamixer 
-    papers pipewire pipewire-alsa pipewire-jack pipewire-pulse plasma-login-manager 
+    papers pciutils pipewire pipewire-alsa pipewire-jack pipewire-pulse plasma-login-manager 
     playerctl plocate plymouth polkit-gnome power-profiles-daemon python-gobject 
     qt5-wayland qt6-wayland ripgrep sassc satty slurp snapper starship 
     sushi swaybg swayosd system-config-printer tmux ttf-jetbrains-mono-nerd 
@@ -27,28 +25,10 @@ PACKAGES=(
     xdg-desktop-portal-hyprland zed zoxide zram-generator
 )
 
-# Список AUR пакетов
-AUR_PACKAGES=(
-    hyprland-preview-share-picker-git
-    walker
-    limine-mkinitcpio-hook
-    limine-snapper-sync
-    xdg-terminal-exec
-    yaru-icon-theme
-)
-
-echo "--- Обновление системы ---"
+echo "--- Updating system ---"
 sudo pacman -Syu --noconfirm
 
-echo "--- Установка официальных пакетов ---"
+echo "--- Install official packages ---"
 sudo pacman -S --needed --noconfirm "${PACKAGES[@]}"
 
-# Проверка наличия AUR хелпера
-if command -v $AUR_HELPER &> /dev/null; then
-    echo "--- Установка пакетов из AUR ---"
-    $AUR_HELPER -S --needed --noconfirm "${AUR_PACKAGES[@]}"
-else
-    echo "!!! $AUR_HELPER не найден. AUR пакеты не установлены."
-fi
-
-echo "--- Установка завершена! ---"
+echo "--- Installation of official packages completed! ---"
