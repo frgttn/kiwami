@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -euo pipefail
+
+THRESHOLD="${1:-30}"
+
+updates_count="$(checkupdates 2>/dev/null | wc -l)"
+
+if (( updates_count >= THRESHOLD )); then
+  echo "Arch updates available: ${updates_count}"
+  exit 0
+else
+  echo "Arch is mostly up to date: ${updates_count} updates"
+  exit 1
+fi

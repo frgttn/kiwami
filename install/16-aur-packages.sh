@@ -7,6 +7,8 @@ AUR_HELPER="paru"
 AUR_PACKAGES=(
   hyprland-preview-share-picker-git
   walker
+  elephant
+  elephant-desktopapplications
   limine-mkinitcpio-hook
   limine-snapper-sync
   visual-studio-code-bin

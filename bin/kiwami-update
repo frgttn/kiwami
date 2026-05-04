@@ -1,0 +1,35 @@
+#!/bin/bash
+
+set -e
+
+echo "--- Arch system update ---"
+
+if ! command -v pacman >/dev/null 2>&1; then
+  echo "Error: pacman not found"
+  exit 1
+fi
+
+echo "--- Updating official repository packages ---"
+sudo pacman -Syu
+
+echo
+
+if command -v paru >/dev/null 2>&1; then
+  echo "--- Updating AUR packages with paru ---"
+  paru -Sua
+else
+  echo "--- paru not found, skipping AUR update ---"
+fi
+
+echo
+
+if command -v paccache >/dev/null 2>&1; then
+  echo "--- Cleaning package cache ---"
+  sudo paccache -r
+else
+  echo "--- paccache not found, skipping cache cleanup ---"
+  echo "Install it with: sudo pacman -S pacman-contrib"
+fi
+
+echo
+echo "--- Update completed ---"
