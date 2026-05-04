@@ -31,6 +31,6 @@ run_step 42-vaapi.sh
 run_step 50-display-manager.sh
 run_step 51-usb-autosuspend.sh
 run_step 60-theme.sh
-run_step 61-gnome-theme.sh
+run_step 61-applications.sh
 run_step 62-mimetypes.sh
 run_step 90-finish.sh

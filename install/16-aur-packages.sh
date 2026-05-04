@@ -9,8 +9,8 @@ AUR_PACKAGES=(
   walker
   limine-mkinitcpio-hook
   limine-snapper-sync
+  visual-studio-code-bin
   xdg-terminal-exec
-  yaru-icon-theme
 )
 
 if ! command -v "$AUR_HELPER" >/dev/null 2>&1; then

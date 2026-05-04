@@ -2,8 +2,6 @@
 
 set -euo pipefail
 
-update-desktop-database ~/.local/share/applications
-
 # Open directories in file manager
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
 
@@ -41,20 +39,20 @@ xdg-mime default mpv.desktop video/x-theora+ogg
 xdg-mime default mpv.desktop application/ogg
 
 # Open text files with zeditor
-xdg-mime default dev.zed.Zed.desktop text/plain
-xdg-mime default dev.zed.Zed.desktop text/english
-xdg-mime default dev.zed.Zed.desktop text/x-makefile
-xdg-mime default dev.zed.Zed.desktop text/x-c++hdr
-xdg-mime default dev.zed.Zed.desktop text/x-c++src
-xdg-mime default dev.zed.Zed.desktop text/x-chdr
-xdg-mime default dev.zed.Zed.desktop text/x-csrc
-xdg-mime default dev.zed.Zed.desktop text/x-java
-xdg-mime default dev.zed.Zed.desktop text/x-moc
-xdg-mime default dev.zed.Zed.desktop text/x-pascal
-xdg-mime default dev.zed.Zed.desktop text/x-tcl
-xdg-mime default dev.zed.Zed.desktop text/x-tex
-xdg-mime default dev.zed.Zed.desktop application/x-shellscript
-xdg-mime default dev.zed.Zed.desktop text/x-c
-xdg-mime default dev.zed.Zed.desktop text/x-c++
-xdg-mime default dev.zed.Zed.desktop application/xml
-xdg-mime default dev.zed.Zed.desktop text/xml
+xdg-mime default code.desktop text/plain
+xdg-mime default code.desktop text/english
+xdg-mime default code.desktop text/x-makefile
+xdg-mime default code.desktop text/x-c++hdr
+xdg-mime default code.desktop text/x-c++src
+xdg-mime default code.desktop text/x-chdr
+xdg-mime default code.desktop text/x-csrc
+xdg-mime default code.desktop text/x-java
+xdg-mime default code.desktop text/x-moc
+xdg-mime default code.desktop text/x-pascal
+xdg-mime default code.desktop text/x-tcl
+xdg-mime default code.desktop text/x-tex
+xdg-mime default code.desktop application/x-shellscript
+xdg-mime default code.desktop text/x-c
+xdg-mime default code.desktop text/x-c++
+xdg-mime default code.desktop application/xml
+xdg-mime default code.desktop text/xml
